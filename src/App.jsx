@@ -55,7 +55,7 @@ const App = () => {
                     params: {
                         api_key: api_key,
                         format: "image",
-                        confidence: "40",
+                        confidence: "50",
                         overlap: "30",
                         labels: "on",
                         stroke: "2"
