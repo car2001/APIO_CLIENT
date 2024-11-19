@@ -51,7 +51,7 @@ const App = () => {
             try {
                 const response = await axios({
                     method: "POST",
-                    url: "https://detect.roboflow.com/yolov8-01/1",
+                    url:"https://detect.roboflow.com/apio-detection/2",
                     params: {
                         api_key: api_key,
                         format: "image",
